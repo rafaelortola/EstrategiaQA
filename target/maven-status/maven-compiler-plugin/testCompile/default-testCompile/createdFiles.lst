@@ -1,0 +1,4 @@
+Suporte\Config.class
+StepsDefinitions\Steps.class
+Enums\LinksEnum.class
+TestRunner.class
