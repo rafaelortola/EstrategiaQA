@@ -1,0 +1,25 @@
+Data: 04/04/2021
+Testador: Rafael Ortolá
+--------------------------------------------
+RESUMO: Valor total de cursos disponíveis estão diferentes na tela
+
+DESCRIÇÃO: Quando um usuário realiza uma busca por professores, é exibido na tela o total de cursos disponíveis.
+Ao clicar em detalhes, o usuário é redirecionado para uma página que contém a lista de todos os cursos daquele professor e que também
+exibe o total de cursos do professor, porém, os valores da página da busca e da página que lista o total de cursos estão divergentes.
+
+Exemplo:
+Página Busca por Professor: 89 cursos disponíveis
+Página com Lista de cursos: 112 cursos disponíveis
+
+Obs: Segue duas evidências para melhor entendimento: 1.png e 2.png
+
+PASSOS:
+1. Acessar a url do estratégia: https://www.estrategiaconcursos.com.br/
+2. Clicar no link "POR PROFESSOR"
+3. Preencher o nome do professor "Ena Loiola" no campo de busca "Filtrar"
+4. Verificar o total 89 de cursos disponíveis na tela
+5. Clicar em detalhes
+6. Verificar que na tela da lista dos cursos o total de 112 cursos disponíveis
+
+
+
