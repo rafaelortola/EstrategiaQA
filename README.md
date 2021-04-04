@@ -3,11 +3,12 @@ Olá, para rodar o projeto vamos definir uma série de etapas que serão explica
  --------------------------------------- ETAPAS DE CONFIGURAÇÃO  ---------------------------------------<br>
 <br>
 1- Fazer um git clone do projeto em sua máquina. <br><br>
-2- Abrir a classe "TestRunner" e alterar a linha 8 com o endereço do seu computador: <br>
+2- Após isso, fazer o import do projeto para sua IDE e dar um mvn clean install para certificar que todas as dependencias foram instaladas com sucesso.<br><br>
+3- Abrir a classe "TestRunner" e alterar a linha 8 com o endereço do seu computador: <br>
 Exemplo: <i>plugin = {"pretty", "html:C:/Users/seu-usuario/Desktop/</i>DesafioEstrategia/src/test/java/Report"},</i><br><br>
-3- Modificar, também, a linha 10 com o endereço do seu computador: <br>
+4- Modificar, também, a linha 10 com o endereço do seu computador: <br>
 Exemplo: <i>features = {"C:/Users/seu-usuario/Desktop/DesafioEstrategia/src/test/Features"},</i><br><br>
-4- Abrir a classe "Config" que está dentro da pasta "Suporte" e alterar na linha 11 o trecho do código com seu usuário:<br>
+5- Abrir a classe "Config" que está dentro da pasta "Suporte" e alterar na linha 11 o trecho do código com seu usuário:<br>
 Exemplo: <i>"C:/Users/seu-usuario/Desktop/DesafioEstrategia/chromedriver/chromedriver.exe");</i><br><br><br><br>
  --------------------------------------- IMPORTANTE ---------------------------------------<br><br>
 A- O ChromeDriver.exe já está incluido em uma pasta do projeto, ou seja, é só o usuário seguir as orientações acima para poder rodar o projeto <br><br>
